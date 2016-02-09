@@ -3,5 +3,6 @@ myModule.controller('ConverterController',
         var cc = this;
         
         // this is a comment
+        // This is another comment
     }
 );
