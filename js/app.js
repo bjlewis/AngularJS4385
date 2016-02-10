@@ -1,1 +1,1 @@
-var myModule = angular.module('AngularJSHomeWorkOne', []);
+var myModule = angular.module('AngularConverterApp', []);
