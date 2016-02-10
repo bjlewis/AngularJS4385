@@ -6,3 +6,6 @@ myModule.controller('ConverterController',
         // This is another comment
     }
 );
+
+// caches current user credentials
+// git config --global credential.helper "cache --timeout=3600"
