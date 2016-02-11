@@ -8,9 +8,9 @@
     
     <body ng-controller="ConverterController as cc">
         <input type="text" ng-model="cc.temperature" />
-        <button ng-click="cc.temperatureToFarenheit()">F&deg;</button>
+        <button ng-click="cc.temperatureToFarenheit()" ng-hide="cc.convertedToFarenheit">F&deg;</button>
     
-        <button ng-click="cc.temperatureToCelcius()">C&deg;</button>
+        <button ng-click="cc.temperatureToCelcius()" ng-hide="cc.convertedToCelcius">C&deg;</button>
     
         <p> Temp: {{ cc.convertedTemperature }}<span ng-show="cc.hasTemperature">&deg;</span></p>
     </body>
